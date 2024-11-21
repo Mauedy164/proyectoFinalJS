@@ -1,4 +1,4 @@
-/* Globales */
+
 *::after,
 *::before,
 *{
@@ -12,11 +12,14 @@ body{
     max-width: 1200px;
     font-family: 'Lato';
     color: #333;
+    background-image: url("https://images.unsplash.com/photo-1569783055874-1e2f28447e92?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZvbmRvJTIwYXp1bHxlbnwwfHwwfHx8MA%3D%3D");
+    background-image: cover;
+    background-position: center;
 }
 
 .icon-cart{
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
     stroke: #000;
 }
 
@@ -33,6 +36,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 30px 0 40px 0;
+
 }
 
 .container-icon{
@@ -46,8 +50,8 @@ header{
 
     background-color: #000;
     color: #fff;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 
     display: flex;
     justify-content: center;
@@ -56,12 +60,12 @@ header{
 }
 
 #contador-productos{
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .container-cart-products{
     position: absolute;
-    top: 50px;
+    top: 100px;
     right: 0;
 
     background-color: #fff;
@@ -143,10 +147,12 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+
 }
 
 .item{
     border-radius: 10px;
+    background-color: #fff;
 }
 
 .item:hover{
